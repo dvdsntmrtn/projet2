@@ -115,8 +115,6 @@ add_datas_EBM(datas_EBM, 'expo-2xCO2', optimal_expo_EBM(EBM_academic, 2.0, n_yea
 
 plot_figure_0('toto', datas_EBM, 'png')
 
-exit()
-
 plot_figure_1(my_dictexps_1, datasets_1, 'tas_Amon', 'anom', 'jpg')
 plot_figure_1(my_dictexps_1, datasets_1, 'rnet', 'anom', 'jpg')
 
