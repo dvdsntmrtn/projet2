@@ -28,8 +28,6 @@ class EBM(object):
         xstr += 'a_f = %4.2f; a_s = %4.2f'%(param['a_f'], param['a_s'])
         xstr += '\n'
         xstr += 'tau_f = %4.2f; tau_s = %4.2f; tau_e = %4.2f'%(param['tau_f'], param['tau_s'], param['tau_e'])
-        xstr += '\n'
-        xstr += 'phi_f = %4.2f; phi_s = %4.2f'%(param['phi_f'], param['phi_s'])
         return xstr
     
     def parameters(self):
