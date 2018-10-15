@@ -24,8 +24,8 @@ class EBM(object):
         xstr += 'c = %5.1f; c_0 = %5.1f'%(self.c, self.c_0)
         xstr += '\n'
         xstr += 'gam = %4.2f; epsi = %4.2f'%(self.gam, self.epsi)
-        xstr += '\n'
-        xstr += 'a_f = %4.2f; a_s = %4.2f'%(param['a_f'], param['a_s'])
+        # xstr += '\n'
+        # xstr += 'a_f = %4.2f; a_s = %4.2f'%(param['a_f'], param['a_s'])
         xstr += '\n'
         xstr += 'tau_f = %4.2f; tau_s = %4.2f; tau_e = %4.2f'%(param['tau_f'], param['tau_s'], param['tau_e'])
         xstr += '\n'
