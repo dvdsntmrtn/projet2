@@ -20,8 +20,8 @@ class EBM(object):
     def __str__(self):
         param = self.parameters()
         xstr = 'F = %5.2f W/m2; lbda = %5.2f W/m2/K : ECS = %5.2f K'%(self.F, self.lbda, self.F/self.lbda)
-        xstr += '\n'
-        xstr += 'c = %5.1f; c_0 = %5.1f'%(self.c, self.c_0)
+        # xstr += '\n'
+        # xstr += 'c = %5.1f; c_0 = %5.1f'%(self.c, self.c_0)
         xstr += '\n'
         xstr += 'gam = %4.2f; epsi = %4.2f'%(self.gam, self.epsi)
         # xstr += '\n'
